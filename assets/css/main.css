@@ -1,0 +1,41 @@
+@import './base.css' ;
+
+body{
+    background-color: rgb(130, 105, 74);
+}
+.recipes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.pizza {
+    text-align: center;
+    border: 1px solid #ccc; 
+    padding: 10px;
+    border-radius: 8px; 
+    background-color: #f9f9f9;
+    width: 350px; 
+    margin: 10px ; 
+
+    
+}
+
+.pizza img {
+    width: 100%; 
+    height: auto; 
+    padding: 10px 0;
+}
+
+.pizza h2 {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0; 
+    font-size: 24px;
+}
+.count{
+    text-align: center;
+}
